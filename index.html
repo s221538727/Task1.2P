@@ -1,0 +1,58 @@
+<html lang="en">
+  
+<head>
+  <link rel="stylesheet" href="styles.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Habits</title>
+</head>
+
+<body>
+
+<nav id="navbar" class="nav">
+  <ul>
+    <li>
+      <a href="#about">
+        H A B I T S
+      </a>
+    </li>
+  </ul>
+</nav>
+
+<section id="welcome-section">
+  <div>
+    <h1 id="capital-case">Good Habits 
+      <span><h4 id="total-count"></h4></span>
+    </h1>
+    
+    <button class="button" onclick="convertToUpperCase()">Make uppercase</button>
+    <button class="button" onclick="converToLowercase()">Make Lowercase</button>
+    <button class="button" onclick="getTotalCount()">total chars</button>
+    <button class="button" onclick="addSpaces()">add spaces</button>
+    <button class="button" onclick="removeSpaces()">remove spaces</button>
+
+    <br>
+
+    <button class="button" onclick="getHabits()">Get Habits</button>
+    <button class="button" onclick="addNewHabit()">Add New Habit</button>
+    <button class="button" onclick="orderHabit()">Habit order</button>
+    <button class="button" onclick="reverseHabit()">Habits reverse</button>
+    <button class="button" onclick="totalHabitsCount()">Total Habits Stored</button>
+    
+
+    <p id="subheading">A Good Habit would boost your productivity</p>
+    <h5 id="date"></h5>
+    
+    <ul id="habits-list"></ul>
+  </div>
+  <div>
+    
+    <img class="welcome-img" id="mobile-only" src="https://activenation.org.uk/wp-content/uploads/2019/03/Habits-Cycle.jpg">
+  </div>
+
+</section>
+</body>
+
+<script src="scripts.js">
+
+</script>
+</html>
